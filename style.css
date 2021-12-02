@@ -1,0 +1,18 @@
+header{
+    width: 100vw;
+}
+body{
+    background-color: #50aaff;
+}
+a{
+    text-decoration: none;
+    margin: 0px;
+    color: white;
+    background-color: #333;
+    display: block;
+    float: left;
+    padding: 5px;
+}
+a:hover:not(.active){
+    background-color: grey;
+}
